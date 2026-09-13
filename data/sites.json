@@ -1,0 +1,219 @@
+{
+  "owner": "rossdavilla",
+  "ownerName": "Ross Avilla",
+  "hide": [],
+  "ignore": [
+    "_*/**",
+    "**/_*/**",
+    "**/Original/**",
+    "**/*_files/**",
+    "**/node_modules/**",
+    "**/google*.html",
+    "404.html"
+  ],
+  "categories": [
+    {
+      "id": "courses",
+      "name": "Courses & textbook",
+      "blurb": "Course sites, the open Human Sexuality textbook, and interactive 3D anatomy models."
+    },
+    {
+      "id": "activities",
+      "name": "Classroom activities & games",
+      "blurb": "Short interactive demos built for lecture. Most work on a phone, and several come in 720×450 versions for embedding in Top Hat."
+    },
+    {
+      "id": "tools",
+      "name": "Teaching tools",
+      "blurb": "Utilities for running a class: attendance, scheduling, grading, and building apps with AI."
+    },
+    {
+      "id": "personal",
+      "name": "Personal",
+      "blurb": "Everyday helpers."
+    }
+  ],
+  "repos": {
+    "PSYCH-110": {
+      "category": "courses",
+      "name": "Human Sexuality",
+      "summary": "An open online textbook by Dr. Ross Avilla: 15 chapters with pop-up definitions and practice questions, the PSYCH-110 syllabus, and small classroom apps. Licensed CC BY-NC-SA 4.0.",
+      "stripTitle": [" · Human Sexuality$"],
+      "ignore": ["mockup-*.html", "Chapter-Example/**"],
+      "links": [
+        { "label": "Table of contents", "path": "toc.html" },
+        { "label": "Course syllabus", "path": "syllabus.html" },
+        { "label": "PSYCH-110 syllabus", "path": "psych110syllabus.html" },
+        { "label": "About the author", "path": "author.html" },
+        { "label": "Social Capital Bank", "path": "socialcapital.html" },
+        { "group": "Chapters", "path": "Chapter1-Intro/chapter01.html" },
+        { "group": "Chapters", "path": "Chapter2-Female/chapter02.html" },
+        { "group": "Chapters", "path": "Chapter3-Male/chapter03.html" },
+        { "group": "Chapters", "path": "Chapter4-Gender/chapter04.html" },
+        { "group": "Chapters", "path": "Chapter5-Fertility/chapter05.html" },
+        { "group": "Chapters", "path": "Chapter6-Contraception/chapter06.html" },
+        { "group": "Chapters", "path": "Chapter7-Pregnancy/chapter07.html" },
+        { "group": "Chapters", "path": "Chapter8-SexualArousal/chapter08.html" },
+        { "group": "Chapters", "path": "Chapter9-SexualBehavior/chapter09.html" },
+        { "group": "Chapters", "path": "Chapter10-ChildhoodDevelopment/chapter10.html" },
+        { "group": "Chapters", "path": "Chapter11-AdultDevelopment/chapter11.html" },
+        { "group": "Chapters", "path": "Chapter12-SexualRelationships/chapter12.html" },
+        { "group": "Chapters", "path": "Chapter13-SexualOrientation/chapter13.html" },
+        { "group": "Chapters", "path": "Chapter14-Fetishes/chapter14.html" },
+        { "group": "Chapters", "path": "Chapter15-PornSexWork/chapter15.html" },
+        { "group": "Classroom apps", "label": "Female anatomy point-and-click", "path": "apps/Anatomy-Point-and-Click/female-anatomy.html" },
+        { "group": "Classroom apps", "label": "Male anatomy point-and-click", "path": "apps/Anatomy-Point-and-Click/male-anatomy.html" },
+        { "group": "Classroom apps", "label": "How to use a condom", "path": "apps/Condoms-How-To/" },
+        { "group": "Classroom apps", "label": "Triangular Theory of Love", "path": "apps/Love-Triangle/" },
+        { "group": "Classroom apps", "label": "The Love Doctor", "path": "apps/Love-Triangle/love-doctor.html" },
+        { "group": "Classroom apps", "label": "Love Mixer", "path": "apps/Love-Triangle/love-mixer.html" },
+        { "group": "Classroom apps", "label": "Development of fetal genitals", "path": "apps/Protogenital-Devleopment/fetalgenitals.html" }
+      ]
+    },
+    "PSYCH-C1000": {
+      "category": "courses",
+      "name": "Introduction to Psychology",
+      "summary": "The PSYCH-C1000 course site: syllabus, a get-to-know-your-professor page, and a Myth or Fact? warm-up.",
+      "ignore": ["Human Sexualities*.html"],
+      "links": [
+        { "label": "Syllabus", "path": "PSYCHC1000-syllabus.html" },
+        { "label": "Know Your Professor", "path": "knowyourprof.html" },
+        { "label": "Myth or Fact?", "path": "mythorfact.html" }
+      ]
+    },
+    "3D-Anatomy": {
+      "category": "courses",
+      "name": "3D Anatomy Viewers",
+      "summary": "Interactive three.js models that run in the browser. Click any structure to see its name and what it does.",
+      "ignore": ["tools/**"],
+      "links": [
+        { "label": "Male reproductive system", "path": "Male Reproductive System Viewer.html" },
+        { "label": "Female reproductive system", "path": "Female Reproductive System Viewer.html" },
+        { "label": "Neocortex", "path": "Brain Neocortex Viewer.html" },
+        { "label": "Limbic system", "path": "Brain Limbic System Viewer.html" },
+        { "label": "Limbic system (simplified)", "path": "Brain Limbic System Simplified Viewer.html" }
+      ]
+    },
+    "Attachment_Games": {
+      "category": "activities",
+      "name": "Attachment Styles Lab",
+      "summary": "Find your attachment style, spot the styles in a text-message exchange, and see how different styles pair up.",
+      "links": [
+        { "label": "What's your attachment style?", "path": "quiz.html" },
+        { "label": "Read the Texts", "path": "textsim.html" },
+        { "label": "Style Matcher", "path": "compatibility.html" },
+        { "group": "Standalone & embed versions", "label": "Quiz", "path": "QuizStandAlone.html" },
+        { "group": "Standalone & embed versions", "label": "Read the Texts", "path": "TextSimStandAlone.html" },
+        { "group": "Standalone & embed versions", "label": "Read the Texts (embed)", "path": "TextSimStandAlone-embed.html" },
+        { "group": "Standalone & embed versions", "label": "Style Matcher", "path": "MatcherStandAlone.html" }
+      ]
+    },
+    "hookup-sti-risk-game": {
+      "category": "activities",
+      "name": "The Hook-Up Game",
+      "summary": "Model a year of choices (partners, condoms, HPV vaccination), see your odds of contracting an STI, then roll the dice.",
+      "links": [
+        { "label": "About & sources", "path": "about.html" },
+        { "label": "Top Hat embed (720×450)", "path": "tophat.html" }
+      ]
+    },
+    "Orgasm-Description": {
+      "category": "activities",
+      "name": "Describing Orgasm",
+      "summary": "A classroom replication of Vance & Wagner (1976). Students describe an orgasm anonymously, then try to guess each writer's anatomy.",
+      "links": [
+        { "label": "Submit a description", "path": "submit.html" },
+        { "label": "The guessing game", "path": "play.html" },
+        { "label": "Class results", "path": "results.html" }
+      ]
+    },
+    "Marriage-Rates": {
+      "category": "activities",
+      "name": "Changing Marriage Rates",
+      "summary": "How the share of married U.S. adults ages 25–34 fell from 86 to 34 per 100 between 1970 and 2025, with a Pick-a-Year spinner game.",
+      "links": [
+        { "label": "Pick a Year embed (720×450)", "path": "pick-a-year-embed.html" }
+      ]
+    },
+    "height-and-salary-dating-sim": {
+      "category": "activities",
+      "name": "Dating Messages Simulator",
+      "summary": "Adjust height and salary to see how each relates to the number of messages received on dating apps.",
+      "links": [
+        { "label": "Mobile version", "path": "index-mobile.html" }
+      ]
+    },
+    "FastFaceJudgements": {
+      "category": "activities",
+      "name": "Fast Face Judgments",
+      "summary": "Pairs of faces flash faster every round, down to 60 ms, to show how quickly we judge attractiveness.",
+      "links": [
+        { "label": "Why some faces are more attractive", "path": "attractiveness-explained.html" },
+        { "label": "Embed version", "path": "embed.html" }
+      ]
+    },
+    "Sex-Positions": {
+      "category": "activities",
+      "name": "Position Yourself",
+      "summary": "An inclusive, mobile-first guide to 56 sex positions sorted by body arrangement, plus a partner matcher quiz.",
+      "primary": "site/",
+      "ignore": ["review-sheet.html"],
+      "links": [
+        { "label": "Matcher quiz", "path": "site/quiz.html" }
+      ]
+    },
+    "KinkDeck": {
+      "category": "activities",
+      "name": "KinkDeck",
+      "summary": "Swipe through 20 cards across 10 kinks for a quick, playful breakdown. Nothing is stored."
+    },
+    "tat": {
+      "category": "activities",
+      "name": "TAT Images",
+      "summary": "Picture cards for a Thematic Apperception Test (TAT) demonstration.",
+      "primary": "TATimage1.png",
+      "ignore": ["index.html"],
+      "links": [
+        { "label": "Image 1", "path": "TATimage1.png" },
+        { "label": "Image 2", "path": "TATimage2.png" },
+        { "label": "Image 3", "path": "TATimage3.png" }
+      ]
+    },
+    "class-attendance": {
+      "category": "tools",
+      "name": "Class Check-In",
+      "summary": "Students enter the session code from the instructor to check in, and attendance is recorded in Google Sheets."
+    },
+    "sclass-scheduler": {
+      "category": "tools",
+      "name": "Semester Grid",
+      "summary": "Build a week-by-week class schedule for a semester and paste the table straight into Google Docs."
+    },
+    "ExamDistribution": {
+      "category": "tools",
+      "name": "Exam Grade Distribution",
+      "summary": "Paste raw scores to get a letter-grade distribution, preview a curve, and print a PDF report."
+    },
+    "THandAI": {
+      "category": "tools",
+      "name": "From Prompt to App",
+      "summary": "A walkthrough for instructors: describe a class activity in plain language, have AI write the app, and publish it."
+    },
+    "DECA": {
+      "category": "personal",
+      "name": "DECA Family Hub",
+      "summary": "Schedule, events, and deadlines for the 2026–27 DECA season.",
+      "primary": "DECA26.html"
+    },
+    "weekly-menu": {
+      "category": "personal",
+      "name": "Week Plan",
+      "summary": "A mobile weekly meal plan with recipes and a built-in timer."
+    },
+    "counter": {
+      "category": "personal",
+      "name": "Counter",
+      "summary": "A minimal tap-to-count app."
+    }
+  }
+}

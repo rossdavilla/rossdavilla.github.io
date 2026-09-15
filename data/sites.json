@@ -192,7 +192,7 @@
     "ExamDistribution": {
       "category": "tools",
       "name": "Exam Grade Distribution",
-      "summary": "Paste raw scores to get a letter-grade distribution, preview a curve, and print a PDF report."
+      "summary": "Merge Canvas exam scores into the gradebook, preview a curve and grade distribution, and export Canvas-ready files and a PDF report."
     },
     "THandAI": {
       "category": "tools",

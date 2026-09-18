@@ -94,6 +94,15 @@
         { "label": "Limbic system (simplified)", "path": "Brain Limbic System Simplified Viewer.html" }
       ]
     },
+    "PSY157": {
+      "category": "activities",
+      "name": "Attribution Theory",
+      "summary": "Read five everyday scenarios, like a student who's always late to class, and classify each cause as internal or external, stable or unstable, and controllable or uncontrollable.",
+      "links": [
+        { "label": "Attribution Theory activity", "path": "Attributions/attribution.html" },
+        { "label": "Top Hat embed (720×450)", "path": "Attributions/attribution-iframe.html" }
+      ]
+    },
     "Attachment_Games": {
       "category": "activities",
       "name": "Attachment Styles Lab",

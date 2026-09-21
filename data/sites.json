@@ -197,6 +197,15 @@
         { "label": "Locus of Control quiz", "path": "locusofcontrol.html" }
       ]
     },
+    "PSY170": {
+      "category": "activities",
+      "name": "Achievement Motivation Scale",
+      "summary": "Rate 15 statements to get a 1–10 score for McClelland's needs for achievement, power, and affiliation, plotted as a needs profile. Built at 720×450 for Top Hat.",
+      "primary": "achievementmotivationscale.html",
+      "links": [
+        { "label": "Achievement Motivation Scale", "path": "achievementmotivationscale.html" }
+      ]
+    },
     "class-attendance": {
       "category": "tools",
       "name": "Class Check-In",

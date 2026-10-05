@@ -199,11 +199,12 @@
     },
     "PSY170": {
       "category": "activities",
-      "name": "Achievement Motivation Scale",
-      "summary": "Rate 15 statements to get a 1–10 score for McClelland's needs for achievement, power, and affiliation, plotted as a needs profile. Built at 720×450 for Top Hat.",
+      "name": "Motivation & Commitment Scales",
+      "summary": "Self-scoring scales built at 720×450 for Top Hat: McClelland's needs for achievement, power, and affiliation, and commitment to UC Merced on Meyer & Allen's affective, continuance, and normative dimensions.",
       "primary": "achievementmotivationscale.html",
       "links": [
-        { "label": "Achievement Motivation Scale", "path": "achievementmotivationscale.html" }
+        { "label": "Achievement Motivation Scale", "path": "achievementmotivationscale.html" },
+        { "label": "Commitment to UC Merced", "path": "commitmentscale.html" }
       ]
     },
     "class-attendance": {

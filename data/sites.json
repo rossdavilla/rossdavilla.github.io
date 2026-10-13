@@ -224,6 +224,14 @@
       "name": "Exam Grade Distribution",
       "summary": "Merge Canvas exam scores into the gradebook, preview a curve and grade distribution, and export Canvas-ready files and a PDF report."
     },
+    "Names": {
+      "category": "tools",
+      "name": "Student Names",
+      "summary": "Flashcards for learning students' names from their photos, with a tab per class, memory tips, and swipe or arrow-key marking until everyone is learned.",
+      "links": [
+        { "label": "PSYCH-C1000 Fall 2026", "path": "#psych-c1000-fall-2026" }
+      ]
+    },
     "THandAI": {
       "category": "tools",
       "name": "From Prompt to App",

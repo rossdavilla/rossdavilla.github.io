@@ -227,10 +227,7 @@
     "Names": {
       "category": "tools",
       "name": "Student Names",
-      "summary": "Flashcards for learning students' names from their photos, with a tab per class, memory tips, and swipe or arrow-key marking until everyone is learned.",
-      "links": [
-        { "label": "PSYCH-C1000 Fall 2026", "path": "#psych-c1000-fall-2026" }
-      ]
+      "summary": "Flashcards for learning students' names from their photos, with a tab per class, memory tips, and swipe or arrow-key marking until everyone is learned."
     },
     "THandAI": {
       "category": "tools",

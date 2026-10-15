@@ -97,12 +97,14 @@
     "PSY157": {
       "category": "activities",
       "name": "PSY157 Activities",
-      "summary": "Classify the causes of everyday behavior with attribution theory, and set Outcomes, CL, and CL-ALT to see how Social Exchange Theory predicts relationship satisfaction and dependence.",
+      "summary": "Classify the causes of everyday behavior with attribution theory, and set Outcomes, CL, and CL-ALT to see how Social Exchange Theory predicts relationship satisfaction and dependence, and score your own shyness and introversion.",
       "links": [
         { "group": "Attribution Theory", "label": "Attribution Theory activity", "path": "Attributions/attribution.html" },
         { "group": "Attribution Theory", "label": "Top Hat embed (720×450)", "path": "Attributions/attribution-iframe.html" },
         { "group": "Social Exchange Theory", "label": "Social Exchange Theory explorer", "path": "SocialExchangeTheory/index.html" },
-        { "group": "Social Exchange Theory", "label": "Top Hat embed (720×450)", "path": "SocialExchangeTheory/social-exchange-iframe.html" }
+        { "group": "Social Exchange Theory", "label": "Top Hat embed (720×450)", "path": "SocialExchangeTheory/social-exchange-iframe.html" },
+        { "group": "Shyness and Introversion", "label": "Social Personality Scale", "path": "Shyness and Introversion Scale/index.html" },
+        { "group": "Shyness and Introversion", "label": "Top Hat embed (720×450)", "path": "Shyness and Introversion Scale/embed.html" }
       ]
     },
     "Attachment_Games": {

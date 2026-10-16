@@ -252,7 +252,7 @@
       "name": "Counter",
       "summary": "A minimal tap-to-count app."
     },
-    "kb-builder": {
+    "kettlebell": {
       "category": "personal",
       "name": "KB Builder",
       "summary": "A kettlebell workout builder with a round tracker, demo videos, and a library of 82 moves.",

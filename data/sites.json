@@ -203,12 +203,13 @@
     },
     "PSY170": {
       "category": "activities",
-      "name": "Motivation & Commitment Scales",
-      "summary": "Self-scoring scales built at 720×450 for Top Hat: McClelland's needs for achievement, power, and affiliation, and commitment to UC Merced on Meyer & Allen's affective, continuance, and normative dimensions.",
+      "name": "Personality, Motivation & Commitment Scales",
+      "summary": "Self-scoring scales built at 720×450 for Top Hat: McClelland's needs for achievement, power, and affiliation, commitment to UC Merced on Meyer & Allen's three dimensions, and a Halloween-themed Dark Triad survey.",
       "primary": "achievementmotivationscale.html",
       "links": [
         { "label": "Achievement Motivation Scale", "path": "achievementmotivationscale.html" },
-        { "label": "Commitment to UC Merced", "path": "commitmentscale.html" }
+        { "label": "Commitment to UC Merced", "path": "commitmentscale.html" },
+        { "label": "The Dark Triad", "path": "Dark Triad (Survey)/embed.html" }
       ]
     },
     "class-attendance": {

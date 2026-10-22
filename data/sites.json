@@ -74,7 +74,7 @@
       "category": "courses",
       "name": "Introduction to Psychology",
       "summary": "The PSYCH-C1000 course site: syllabus, a get-to-know-your-professor page, a Myth or Fact? warm-up, an emotion acting game, and a Cyberball social-exclusion demo.",
-      "ignore": ["Human Sexualities*.html"],
+      "ignore": ["Human Sexualities*.html", "cyberball/cyberball-same.html"],
       "links": [
         { "label": "Syllabus", "path": "PSYCHC1000-syllabus.html" },
         { "label": "Know Your Professor", "path": "knowyourprof.html" },

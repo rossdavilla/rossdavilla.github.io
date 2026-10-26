@@ -539,6 +539,17 @@
           "path": "library.html"
         }
       ]
+    },
+    "teaching-review": {
+      "category": "tools",
+      "name": "Teaching Review Archive",
+      "summary": "A monthly scan of 21 top-tier psychology journals, matched to the lectures of Human Sexuality, Personal Relationships, and I/O Psychology. Browse by month, then class, then category — Priority, Updates, Examples, Retractions. Each article carries its abstract, an APA reference, ready-made slide text showing the current wording beside a proposed replacement, and a briefing you can paste into Claude to ask follow-up questions.",
+      "links": [
+        {
+          "label": "Latest review",
+          "path": "index.html"
+        }
+      ]
     }
   }
 }

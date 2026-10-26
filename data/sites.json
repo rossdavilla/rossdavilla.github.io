@@ -463,7 +463,7 @@
     "PSY170": {
       "category": "activities",
       "name": "PSY 170 Class Activities & Scales",
-      "summary": "Self-scoring scales built at 720×450 for Top Hat — McClelland's needs for achievement, power, and affiliation, commitment to UC Merced on Meyer & Allen's three dimensions, and a Halloween-themed Dark Triad survey — plus The Heist, which secretly tells each student whether to steal a prize and whether to lie about it so the class can practice detecting deception.",
+      "summary": "Self-scoring scales built at 720×450 for Top Hat — McClelland's needs for achievement, power, and affiliation, commitment to UC Merced on Meyer & Allen's three dimensions, and a Halloween-themed Dark Triad survey — plus The Heist, which secretly tells each student whether to steal a prize and whether to lie about it so the class can practice detecting deception. It also includes a groupthink activity that hands each student one of four real cases, from the Soviet sub that nearly launched a nuclear torpedo to the Mozart effect, then sends them to find classmates holding a different case.",
       "primary": "achievementmotivationscale.html",
       "links": [
         {
@@ -481,6 +481,10 @@
         {
           "label": "The Heist (thief & lie assignment)",
           "path": "thiefgame.html"
+        },
+        {
+          "label": "Groupthink: Four Cases",
+          "path": "Groupthink Examples/index.html"
         }
       ]
     },

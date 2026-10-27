@@ -166,7 +166,7 @@
     "PSYCH-C1000": {
       "category": "courses",
       "name": "Introduction to Psychology",
-      "summary": "The PSYCH-C1000 course site: syllabus, a get-to-know-your-professor page, a Myth or Fact? warm-up, an emotion acting game, a Cyberball social-exclusion demo, and The Heist, which secretly tells each student whether to steal a prize and whether to lie about it so the class can practice detecting deception.",
+      "summary": "The PSYCH-C1000 course site: syllabus, a get-to-know-your-professor page, a Myth or Fact? warm-up, an emotion acting game, a Cyberball social-exclusion demo, The Heist, which secretly tells each student whether to steal a prize and whether to lie about it so the class can practice detecting deception, and Spot the Dangerous Criminal, which asks students to pick the violent offender out of three booking photographs and then shows them how close to chance they scored.",
       "ignore": [
         "Human Sexualities*.html",
         "cyberball/cyberball-same.html"
@@ -195,6 +195,10 @@
         {
           "label": "The Heist",
           "path": "Thief-Game/index.html"
+        },
+        {
+          "label": "Spot the Dangerous Criminal",
+          "path": "Spot the Dangerous Criminal/index.html"
         }
       ]
     },

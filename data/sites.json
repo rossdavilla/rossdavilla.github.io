@@ -235,7 +235,7 @@
     "PSY157": {
       "category": "activities",
       "name": "PSY157 Activities",
-      "summary": "Classify the causes of everyday behavior with attribution theory, set Outcomes, CL, and CL-ALT to see how Social Exchange Theory predicts relationship satisfaction and dependence, score your own shyness and introversion, and mix passion, intimacy, and commitment to discover Sternberg's eight types of love, and rate how much each of the five love languages means to you.",
+      "summary": "Classify the causes of everyday behavior with attribution theory, set Outcomes, CL, and CL-ALT to see how Social Exchange Theory predicts relationship satisfaction and dependence, score your own shyness and introversion, mix passion, intimacy, and commitment to discover Sternberg's eight types of love, rate how much each of the five love languages means to you, and place yourself on the insecurity–avoidance grid of attachment styles.",
       "links": [
         {
           "group": "Attribution Theory",
@@ -301,6 +301,11 @@
           "group": "Love Languages",
           "label": "Love Languages survey",
           "path": "Love Languages Survey/index.html"
+        },
+        {
+          "group": "Attachment Styles",
+          "label": "Attachment Style survey · Top Hat embed (720×450)",
+          "path": "attachment-apps/quiz-embed.html"
         }
       ]
     },

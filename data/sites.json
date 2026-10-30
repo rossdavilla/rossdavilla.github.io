@@ -477,7 +477,7 @@
     "PSY170": {
       "category": "activities",
       "name": "PSY 170 Class Activities & Scales",
-      "summary": "Self-scoring scales built at 720×450 for Top Hat — McClelland's needs for achievement, power, and affiliation, commitment to UC Merced on Meyer & Allen's three dimensions, and a Halloween-themed Dark Triad survey — plus The Heist, which secretly tells each student whether to steal a prize and whether to lie about it so the class can practice detecting deception. It also includes a groupthink activity that hands each student one of four real cases, from the Soviet sub that nearly launched a nuclear torpedo to the Mozart effect, then sends them to find classmates holding a different case.",
+      "summary": "Self-scoring scales built at 720×450 for Top Hat — McClelland's needs for achievement, power, and affiliation, commitment to UC Merced on Meyer & Allen's three dimensions, and a Halloween-themed Dark Triad survey — plus The Heist, which secretly tells each student whether to steal a prize and whether to lie about it so the class can practice detecting deception. It also includes a groupthink activity that hands each student one of four real cases, from the Soviet sub that nearly launched a nuclear torpedo to the Mozart effect, then sends them to find classmates holding a different case. Subtext pairs students to pass a phone back and forth, each saying an everyday line like \"Good job.\" while using only nonverbal cues to convey a secret meaning such as sarcasm or surprise.",
       "primary": "achievementmotivationscale.html",
       "links": [
         {
@@ -499,6 +499,10 @@
         {
           "label": "Groupthink: Four Cases",
           "path": "Groupthink Examples/index.html"
+        },
+        {
+          "label": "Subtext (nonverbal partner game)",
+          "path": "Nonverbal (Subtext Game)/Subtext.html"
         }
       ]
     },

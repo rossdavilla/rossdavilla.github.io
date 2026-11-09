@@ -388,8 +388,12 @@
       "summary": "How the share of married U.S. adults ages 25–34 fell from 86 to 34 per 100 between 1970 and 2025, with a Pick-a-Year spinner game.",
       "links": [
         {
-          "label": "Pick a Year embed (720×450)",
+          "label": "Pick a Year embed — all years (720×450)",
           "path": "pick-a-year-embed.html"
+        },
+        {
+          "label": "Pick a Year embed — 3 years: 1975/1995/2025 (720×450)",
+          "path": "pick-a-year-embed3.html"
         }
       ]
     },

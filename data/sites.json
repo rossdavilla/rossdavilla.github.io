@@ -60,6 +60,11 @@
     }
   ],
   "repos": {
+    "mock-tophat": {
+      "ignore": [
+        "index.html"
+      ]
+    },
     "PSYCH-110": {
       "stripTitle": [
         " · Human Sexuality$"

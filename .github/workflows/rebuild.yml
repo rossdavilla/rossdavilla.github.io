@@ -26,16 +26,17 @@ jobs:
         with:
           node-version: 24
 
-      - name: Build index.html from the GitHub API
+      - name: Build index.html and screenshots from the GitHub API
         run: node scripts/build.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHROME_PATH: /usr/bin/google-chrome
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html
+          git add index.html thumbs data/thumbs.json
           if ! git diff --cached --quiet; then
             git commit -m "Rebuild directory"
           elif [ $(( $(date +%s) - $(git log -1 --format=%ct) )) -gt 4320000 ]; then
@@ -45,7 +46,7 @@ jobs:
           git push || { git pull --rebase && git push; }
 
       - name: Stage site
-        run: mkdir _site && cp index.html _site/
+        run: mkdir _site && cp -R index.html thumbs _site/
 
       - uses: actions/upload-pages-artifact@v5
         with:

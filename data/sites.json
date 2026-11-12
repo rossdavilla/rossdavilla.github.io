@@ -11,39 +11,536 @@
     "**/google*.html",
     "404.html"
   ],
-  "categories": [
+  "tags": [
     {
-      "id": "courses",
-      "name": "Courses & textbook",
-      "blurb": "Course sites, the open Human Sexuality textbook, and interactive 3D anatomy models."
+      "id": "PSY001",
+      "label": "PSY001",
+      "name": "Intro to Psychology",
+      "blurb": "Warm-ups, demos, and games for Introduction to Psychology.",
+      "short": "Intro"
     },
     {
-      "id": "activities",
-      "name": "Classroom activities & games",
-      "blurb": "Short interactive demos built for lecture. Most work on a phone, and several come in 720×450 versions for embedding in Top Hat."
+      "id": "PSY157",
+      "label": "PSY157",
+      "name": "Relationships",
+      "blurb": "Scales and simulations for Personal Relationships: attraction, love, attachment, and commitment.",
+      "short": "Relationships"
+    },
+    {
+      "id": "PSY170",
+      "label": "PSY170",
+      "name": "I/O Psychology",
+      "blurb": "Self-scoring scales and group activities for Industrial/Organizational Psychology.",
+      "short": "I/O Psychology"
+    },
+    {
+      "id": "PSY175",
+      "label": "PSY175",
+      "name": "Sexuality",
+      "blurb": "Anatomy models, sexual-health games, and the open Human Sexuality textbook.",
+      "short": "Sexuality"
+    },
+    {
+      "id": "textbook",
+      "label": "Textbook",
+      "name": "Textbook",
+      "blurb": "The open textbook and the activities written for it."
     },
     {
       "id": "tools",
+      "label": "Teaching tools",
       "name": "Teaching tools",
       "blurb": "Utilities for running a class: attendance, scheduling, grading, and building apps with AI."
     },
     {
       "id": "personal",
+      "label": "Personal",
       "name": "Personal",
       "blurb": "Everyday helpers."
     }
   ],
   "repos": {
     "PSYCH-110": {
-      "category": "courses",
-      "name": "Human Sexuality",
-      "summary": "An open online textbook by Dr. Ross Avilla: 15 chapters with pop-up definitions and practice questions, the PSYCH-110 syllabus, and small classroom apps. Licensed CC BY-NC-SA 4.0.",
       "stripTitle": [
         " · Human Sexuality$"
       ],
       "ignore": [
         "mockup-*.html",
-        "Chapter-Example/**"
+        "Chapter-Example/**",
+        "socialcapital.html"
+      ]
+    },
+    "PSYCH-C1000": {
+      "ignore": [
+        "Human Sexualities*.html",
+        "cyberball/cyberball-same.html"
+      ]
+    },
+    "3D-Anatomy": {
+      "ignore": [
+        "tools/**",
+        "index.html"
+      ]
+    },
+    "Attachment_Games": {
+      "ignore": [
+        "index.html"
+      ]
+    },
+    "Sex-Positions": {
+      "ignore": [
+        "review-sheet.html"
+      ]
+    },
+    "tat": {
+      "ignore": [
+        "index.html"
+      ]
+    }
+  },
+  "apps": [
+    {
+      "id": "intro-course",
+      "repo": "PSYCH-C1000",
+      "name": "Introduction to Psychology",
+      "summary": "The PSYCH-C1000 course site at Modesto Junior College: syllabus, Know Your Professor, and links to the class activities.",
+      "path": "index.html",
+      "tags": [
+        "PSY001"
+      ],
+      "links": [
+        {
+          "label": "Syllabus",
+          "path": "PSYCHC1000-syllabus.html"
+        },
+        {
+          "label": "Know Your Professor",
+          "path": "knowyourprof.html"
+        }
+      ]
+    },
+    {
+      "id": "myth-or-fact",
+      "repo": "PSYCH-C1000",
+      "name": "Myth or Fact?",
+      "summary": "Each student gets one claim about psychology and locks in true or false; answers stay hidden until the class hears the magic word.",
+      "path": "mythorfact.html",
+      "tags": [
+        "PSY001"
+      ]
+    },
+    {
+      "id": "make-a-face",
+      "repo": "PSYCH-C1000",
+      "name": "Make a Face",
+      "summary": "Partners take turns acting out an emotion with only face and shoulders while the other guesses: 12 emotions, 15 seconds each.",
+      "path": "Emotion Game/index.html",
+      "tags": [
+        "PSY001"
+      ]
+    },
+    {
+      "id": "cyberball",
+      "repo": "PSYCH-C1000",
+      "name": "Cyberball",
+      "summary": "The classic social-exclusion demo: toss a ball with two other players until they stop throwing it to you.",
+      "path": "cyberball/index.html",
+      "tags": [
+        "PSY001"
+      ]
+    },
+    {
+      "id": "the-heist",
+      "repo": "PSYCH-C1000",
+      "name": "The Heist",
+      "summary": "Secretly tells each student whether to steal a prize and whether to lie about it, so the class can practice detecting deception.",
+      "path": "Thief-Game/index.html",
+      "tags": [
+        "PSY001",
+        "PSY170"
+      ],
+      "links": [
+        {
+          "label": "PSY170 version",
+          "repo": "PSY170",
+          "path": "thiefgame.html"
+        }
+      ]
+    },
+    {
+      "id": "spot-the-criminal",
+      "repo": "PSYCH-C1000",
+      "name": "Spot the Dangerous Criminal",
+      "summary": "Pick the violent offender out of three booking photographs, then see how close to chance you scored.",
+      "path": "Spot the Dangerous Criminal/index.html",
+      "tags": [
+        "PSY001"
+      ]
+    },
+    {
+      "id": "brain-neocortex",
+      "repo": "3D-Anatomy",
+      "name": "3D Brain: Neocortex",
+      "summary": "Spin a 3D model of the cortex and click any lobe or area to see its name and what it does.",
+      "path": "Brain Neocortex Viewer.html",
+      "tags": [
+        "PSY001"
+      ],
+      "shot": {
+        "delay": 5000
+      }
+    },
+    {
+      "id": "brain-limbic",
+      "repo": "3D-Anatomy",
+      "name": "3D Brain: Limbic System",
+      "summary": "A 3D model of the limbic system. Click a structure to see its name and role in emotion and memory.",
+      "path": "Brain Limbic System Viewer.html",
+      "tags": [
+        "PSY001"
+      ],
+      "links": [
+        {
+          "label": "Simplified version",
+          "path": "Brain Limbic System Simplified Viewer.html"
+        }
+      ],
+      "shot": {
+        "delay": 5000
+      }
+    },
+    {
+      "id": "attribution",
+      "repo": "PSY157",
+      "name": "Attribution Theory",
+      "summary": "Classify the causes of everyday behavior: internal or external, stable or unstable.",
+      "path": "Attributions/attribution.html",
+      "tags": [
+        "PSY157"
+      ],
+      "links": [
+        {
+          "label": "Top Hat embed (720×450)",
+          "path": "Attributions/attribution-iframe.html"
+        }
+      ]
+    },
+    {
+      "id": "social-exchange",
+      "repo": "PSY157",
+      "name": "Social Exchange Theory",
+      "summary": "Set Outcomes, CL, and CL-alt to see how the theory predicts satisfaction and dependence.",
+      "path": "SocialExchangeTheory/index.html",
+      "tags": [
+        "PSY157"
+      ],
+      "links": [
+        {
+          "label": "Top Hat embed (720×450)",
+          "path": "SocialExchangeTheory/social-exchange-iframe.html"
+        }
+      ]
+    },
+    {
+      "id": "shyness-scale",
+      "repo": "PSY157",
+      "name": "Social Personality Scale",
+      "summary": "Twelve statements that score your shyness and introversion separately.",
+      "path": "Shyness and Introversion Scale/index.html",
+      "tags": [
+        "PSY157"
+      ],
+      "links": [
+        {
+          "label": "Top Hat embed (720×450)",
+          "path": "Shyness and Introversion Scale/embed.html"
+        }
+      ]
+    },
+    {
+      "id": "triangular-love",
+      "repo": "PSY157",
+      "name": "Triangular Theory of Love",
+      "summary": "Mix passion, intimacy, and commitment to discover Sternberg's eight types of love.",
+      "path": "Triangular Love Theory/index.html",
+      "tags": [
+        "PSY157",
+        "PSY175"
+      ],
+      "links": [
+        {
+          "label": "Textbook version",
+          "repo": "PSYCH-110",
+          "path": "apps/Love-Triangle/"
+        }
+      ]
+    },
+    {
+      "id": "love-mixer",
+      "repo": "PSY157",
+      "name": "Love Mixer",
+      "summary": "Set passion, intimacy, and commitment to high or low, then mix to discover which type of love you've made.",
+      "path": "Triangular Love Theory/love-mixer.html",
+      "tags": [
+        "PSY157",
+        "PSY175"
+      ],
+      "links": [
+        {
+          "label": "Top Hat embed (720×450)",
+          "path": "Triangular Love Theory/love-mixer-embed.html"
+        },
+        {
+          "label": "Textbook version",
+          "repo": "PSYCH-110",
+          "path": "apps/Love-Triangle/love-mixer.html"
+        }
+      ]
+    },
+    {
+      "id": "love-doctor",
+      "repo": "PSY157",
+      "name": "The Love Doctor",
+      "summary": "Diagnose each couple's type of love from what they tell you about passion, intimacy, and commitment.",
+      "path": "Triangular Love Theory/love-doctor.html",
+      "tags": [
+        "PSY157",
+        "PSY175"
+      ],
+      "links": [
+        {
+          "label": "Dr. Love's Office · Top Hat embed",
+          "path": "Triangular Love Theory/love-doctor-embed.html"
+        },
+        {
+          "label": "Dr. Love's Office v2 · Top Hat embed",
+          "path": "Triangular Love Theory/love-doctor-embed2.html"
+        },
+        {
+          "label": "Textbook version",
+          "repo": "PSYCH-110",
+          "path": "apps/Love-Triangle/love-doctor.html"
+        }
+      ]
+    },
+    {
+      "id": "love-languages",
+      "repo": "PSY157",
+      "name": "Love Languages Survey",
+      "summary": "See 20 things a partner might do and rate how much each would mean to you to find your love language.",
+      "path": "Love Languages Survey/index.html",
+      "tags": [
+        "PSY157"
+      ]
+    },
+    {
+      "id": "attachment-quiz",
+      "repo": "Attachment_Games",
+      "name": "What's Your Attachment Style?",
+      "summary": "A 12-item questionnaire that places you on the anxiety–avoidance map of attachment styles.",
+      "path": "quiz.html",
+      "tags": [
+        "PSY157"
+      ],
+      "links": [
+        {
+          "label": "Standalone version",
+          "path": "QuizStandAlone.html"
+        },
+        {
+          "label": "Top Hat embed (720×450)",
+          "repo": "PSY157",
+          "path": "attachment-apps/quiz-embed.html"
+        }
+      ]
+    },
+    {
+      "id": "read-the-texts",
+      "repo": "Attachment_Games",
+      "name": "Read the Texts",
+      "summary": "Text back and forth with three people, each hiding an attachment style, and work out which one from how they reply.",
+      "path": "textsim.html",
+      "tags": [
+        "PSY157"
+      ],
+      "links": [
+        {
+          "label": "Standalone version",
+          "path": "TextSimStandAlone.html"
+        },
+        {
+          "label": "Top Hat embed (720×450)",
+          "path": "TextSimStandAlone-embed.html"
+        },
+        {
+          "label": "Top Hat embed · 1 round",
+          "path": "TextSimStandAlone-embed-1.html"
+        },
+        {
+          "label": "Top Hat embed · 2 rounds",
+          "path": "TextSimStandAlone-embed-2.html"
+        },
+        {
+          "label": "Top Hat embed · 3 rounds",
+          "path": "TextSimStandAlone-embed-3.html"
+        }
+      ]
+    },
+    {
+      "id": "style-matcher",
+      "repo": "Attachment_Games",
+      "name": "Style Matcher",
+      "summary": "Pick two attachment styles to see their satisfaction potential, tension points, and how they handle conflict.",
+      "path": "compatibility.html",
+      "tags": [
+        "PSY157"
+      ],
+      "links": [
+        {
+          "label": "Standalone version",
+          "path": "MatcherStandAlone.html"
+        }
+      ]
+    },
+    {
+      "id": "marriage-rates",
+      "repo": "Marriage-Rates",
+      "name": "Changing Marriage Rates",
+      "summary": "How the share of married U.S. adults ages 25–34 fell from 86 to 34 per 100 between 1970 and 2025.",
+      "path": "index.html",
+      "tags": [
+        "PSY157",
+        "PSY175"
+      ],
+      "links": [
+        {
+          "label": "Pick a Year · Top Hat embed, all years",
+          "path": "pick-a-year-embed.html"
+        },
+        {
+          "label": "Pick a Year · Top Hat embed, 3 years",
+          "path": "pick-a-year-embed3.html"
+        }
+      ]
+    },
+    {
+      "id": "dating-messages",
+      "repo": "height-and-salary-dating-sim",
+      "name": "Dating Messages Simulator",
+      "summary": "Adjust height and salary to see how each relates to the number of messages received on dating apps.",
+      "path": "index.html",
+      "tags": [
+        "PSY157",
+        "PSY175"
+      ],
+      "links": [
+        {
+          "label": "Mobile version",
+          "path": "index-mobile.html"
+        }
+      ]
+    },
+    {
+      "id": "fast-faces",
+      "repo": "FastFaceJudgements",
+      "name": "Fast Face Judgments",
+      "summary": "Pairs of faces flash faster every round, down to 60 ms, to show how quickly we judge attractiveness.",
+      "path": "index.html",
+      "tags": [
+        "PSY157",
+        "PSY175"
+      ],
+      "links": [
+        {
+          "label": "Why some faces are more attractive",
+          "path": "attractiveness-explained.html"
+        },
+        {
+          "label": "Embed version",
+          "path": "embed.html"
+        }
+      ]
+    },
+    {
+      "id": "achievement-motivation",
+      "repo": "PSY170",
+      "name": "Achievement Motivation Scale",
+      "summary": "Score your needs for achievement, power, and affiliation from McClelland's theory.",
+      "path": "achievementmotivationscale.html",
+      "tags": [
+        "PSY170"
+      ],
+      "shot": {
+        "width": 720,
+        "height": 540
+      }
+    },
+    {
+      "id": "commitment-scale",
+      "repo": "PSY170",
+      "name": "Commitment to UC Merced",
+      "summary": "Rate your commitment to UC Merced on Meyer & Allen's affective, continuance, and normative dimensions.",
+      "path": "commitmentscale.html",
+      "tags": [
+        "PSY170"
+      ],
+      "shot": {
+        "width": 720,
+        "height": 540
+      }
+    },
+    {
+      "id": "dark-triad",
+      "repo": "PSY170",
+      "name": "The Dark Triad",
+      "summary": "A Halloween-themed survey of Machiavellianism, narcissism, and psychopathy.",
+      "path": "Dark Triad (Survey)/embed.html",
+      "tags": [
+        "PSY170"
+      ],
+      "shot": {
+        "width": 720,
+        "height": 540
+      }
+    },
+    {
+      "id": "groupthink",
+      "repo": "PSY170",
+      "name": "Groupthink: Four Cases",
+      "summary": "Each student gets one of four real cases, from a Soviet sub's near-launch to the Mozart effect, then finds classmates holding a different one.",
+      "path": "Groupthink Examples/index.html",
+      "tags": [
+        "PSY170"
+      ]
+    },
+    {
+      "id": "subtext",
+      "repo": "PSY170",
+      "name": "Subtext",
+      "summary": "Partners pass a phone back and forth, saying lines like \"Good job.\" with only nonverbal cues to convey a secret meaning.",
+      "path": "nonverbal-behavior.html",
+      "tags": [
+        "PSY170"
+      ],
+      "links": [
+        {
+          "label": "Earlier version",
+          "path": "Nonverbal (Subtext Game)/Subtext.html"
+        }
+      ]
+    },
+    {
+      "id": "human-sexuality",
+      "repo": "PSYCH-110",
+      "name": "Human Sexuality",
+      "summary": "An open online textbook by Dr. Ross Avilla: 15 chapters with pop-up definitions and practice questions.",
+      "path": "index.html",
+      "tags": [
+        "PSY175",
+        "textbook"
+      ],
+      "covers": [
+        "Chapter*/**"
       ],
       "links": [
         {
@@ -61,297 +558,73 @@
         {
           "label": "About the author",
           "path": "author.html"
-        },
-        {
-          "label": "Social Capital Bank",
-          "path": "socialcapital.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter1-Intro/chapter01.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter2-Female/chapter02.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter3-Male/chapter03.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter4-Gender/chapter04.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter5-Fertility/chapter05.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter6-Contraception/chapter06.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter7-Pregnancy/chapter07.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter8-SexualArousal/chapter08.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter9-SexualBehavior/chapter09.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter10-ChildhoodDevelopment/chapter10.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter11-AdultDevelopment/chapter11.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter12-SexualRelationships/chapter12.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter13-SexualOrientation/chapter13.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter14-Fetishes/chapter14.html"
-        },
-        {
-          "group": "Chapters",
-          "path": "Chapter15-PornSexWork/chapter15.html"
-        },
-        {
-          "group": "Classroom apps",
-          "label": "Female anatomy point-and-click",
-          "path": "apps/Anatomy-Point-and-Click/female-anatomy.html"
-        },
-        {
-          "group": "Classroom apps",
-          "label": "Male anatomy point-and-click",
-          "path": "apps/Anatomy-Point-and-Click/male-anatomy.html"
-        },
-        {
-          "group": "Classroom apps",
-          "label": "How to use a condom",
-          "path": "apps/Condoms-How-To/"
-        },
-        {
-          "group": "Classroom apps",
-          "label": "Triangular Theory of Love",
-          "path": "apps/Love-Triangle/"
-        },
-        {
-          "group": "Classroom apps",
-          "label": "The Love Doctor",
-          "path": "apps/Love-Triangle/love-doctor.html"
-        },
-        {
-          "group": "Classroom apps",
-          "label": "Love Mixer",
-          "path": "apps/Love-Triangle/love-mixer.html"
-        },
-        {
-          "group": "Classroom apps",
-          "label": "Development of fetal genitals",
-          "path": "apps/Protogenital-Devleopment/fetalgenitals.html"
         }
       ]
     },
-    "PSYCH-C1000": {
-      "category": "courses",
-      "name": "Introduction to Psychology",
-      "summary": "The PSYCH-C1000 course site: syllabus, a get-to-know-your-professor page, a Myth or Fact? warm-up, an emotion acting game, a Cyberball social-exclusion demo, The Heist, which secretly tells each student whether to steal a prize and whether to lie about it so the class can practice detecting deception, and Spot the Dangerous Criminal, which asks students to pick the violent offender out of three booking photographs and then shows them how close to chance they scored.",
-      "ignore": [
-        "Human Sexualities*.html",
-        "cyberball/cyberball-same.html"
+    {
+      "id": "anatomy-click",
+      "repo": "PSYCH-110",
+      "name": "Anatomy Point-and-Click",
+      "summary": "Click each marker to reveal the name of each part of the vulva. Includes a male version.",
+      "path": "apps/Anatomy-Point-and-Click/female-anatomy.html",
+      "tags": [
+        "PSY175"
       ],
       "links": [
         {
-          "label": "Syllabus",
-          "path": "PSYCHC1000-syllabus.html"
-        },
-        {
-          "label": "Know Your Professor",
-          "path": "knowyourprof.html"
-        },
-        {
-          "label": "Myth or Fact?",
-          "path": "mythorfact.html"
-        },
-        {
-          "label": "Make a Face",
-          "path": "Emotion Game/index.html"
-        },
-        {
-          "label": "Cyberball",
-          "path": "cyberball/index.html"
-        },
-        {
-          "label": "The Heist",
-          "path": "Thief-Game/index.html"
-        },
-        {
-          "label": "Spot the Dangerous Criminal",
-          "path": "Spot the Dangerous Criminal/index.html"
+          "label": "Male anatomy",
+          "path": "apps/Anatomy-Point-and-Click/male-anatomy.html"
         }
       ]
     },
-    "3D-Anatomy": {
-      "category": "courses",
-      "name": "3D Anatomy Viewers",
-      "summary": "Interactive three.js models that run in the browser. Click any structure to see its name and what it does.",
-      "ignore": [
-        "tools/**"
+    {
+      "id": "reproductive-3d",
+      "repo": "3D-Anatomy",
+      "name": "3D Reproductive Anatomy",
+      "summary": "Rotate a 3D model of the reproductive system and click any structure to see its name and what it does.",
+      "path": "Female Reproductive System Viewer.html",
+      "tags": [
+        "PSY175"
       ],
       "links": [
         {
           "label": "Male reproductive system",
           "path": "Male Reproductive System Viewer.html"
-        },
-        {
-          "label": "Female reproductive system",
-          "path": "Female Reproductive System Viewer.html"
-        },
-        {
-          "label": "Neocortex",
-          "path": "Brain Neocortex Viewer.html"
-        },
-        {
-          "label": "Limbic system",
-          "path": "Brain Limbic System Viewer.html"
-        },
-        {
-          "label": "Limbic system (simplified)",
-          "path": "Brain Limbic System Simplified Viewer.html"
         }
+      ],
+      "shot": {
+        "delay": 5000
+      }
+    },
+    {
+      "id": "fetal-genitals",
+      "repo": "PSYCH-110",
+      "name": "Fetal Genital Development",
+      "summary": "Click along a timeline to see how the genitals develop in the womb for female and male fetuses.",
+      "path": "apps/Protogenital-Devleopment/fetalgenitals.html",
+      "tags": [
+        "PSY175"
       ]
     },
-    "PSY157": {
-      "category": "activities",
-      "name": "PSY157 Activities",
-      "summary": "Classify the causes of everyday behavior with attribution theory, set Outcomes, CL, and CL-ALT to see how Social Exchange Theory predicts relationship satisfaction and dependence, score your own shyness and introversion, mix passion, intimacy, and commitment to discover Sternberg's eight types of love, rate how much each of the five love languages means to you, and place yourself on the insecurity–avoidance grid of attachment styles.",
-      "links": [
-        {
-          "group": "Attribution Theory",
-          "label": "Attribution Theory activity",
-          "path": "Attributions/attribution.html"
-        },
-        {
-          "group": "Attribution Theory",
-          "label": "Top Hat embed (720×450)",
-          "path": "Attributions/attribution-iframe.html"
-        },
-        {
-          "group": "Social Exchange Theory",
-          "label": "Social Exchange Theory explorer",
-          "path": "SocialExchangeTheory/index.html"
-        },
-        {
-          "group": "Social Exchange Theory",
-          "label": "Top Hat embed (720×450)",
-          "path": "SocialExchangeTheory/social-exchange-iframe.html"
-        },
-        {
-          "group": "Shyness and Introversion",
-          "label": "Social Personality Scale",
-          "path": "Shyness and Introversion Scale/index.html"
-        },
-        {
-          "group": "Shyness and Introversion",
-          "label": "Top Hat embed (720×450)",
-          "path": "Shyness and Introversion Scale/embed.html"
-        },
-        {
-          "group": "Triangular Love Theory",
-          "label": "Triangular Theory of Love",
-          "path": "Triangular Love Theory/index.html"
-        },
-        {
-          "group": "Triangular Love Theory",
-          "label": "Love Mixer",
-          "path": "Triangular Love Theory/love-mixer.html"
-        },
-        {
-          "group": "Triangular Love Theory",
-          "label": "Love Mixer · Top Hat embed (720×450)",
-          "path": "Triangular Love Theory/love-mixer-embed.html"
-        },
-        {
-          "group": "Triangular Love Theory",
-          "label": "The Love Doctor",
-          "path": "Triangular Love Theory/love-doctor.html"
-        },
-        {
-          "group": "Triangular Love Theory",
-          "label": "Dr. Love's Office · Top Hat embed (720×450)",
-          "path": "Triangular Love Theory/love-doctor-embed.html"
-        },
-        {
-          "group": "Triangular Love Theory",
-          "label": "Dr. Love's Office v2 · Top Hat embed (720×450)",
-          "path": "Triangular Love Theory/love-doctor-embed2.html"
-        },
-        {
-          "group": "Love Languages",
-          "label": "Love Languages survey",
-          "path": "Love Languages Survey/index.html"
-        },
-        {
-          "group": "Attachment Styles",
-          "label": "Attachment Style survey · Top Hat embed (720×450)",
-          "path": "attachment-apps/quiz-embed.html"
-        }
+    {
+      "id": "condom-how-to",
+      "repo": "PSYCH-110",
+      "name": "How to Use a Condom",
+      "summary": "A step-by-step slideshow on using a condom correctly, starting with checking the expiration date.",
+      "path": "apps/Condoms-How-To/",
+      "tags": [
+        "PSY175"
       ]
     },
-    "Attachment_Games": {
-      "category": "activities",
-      "name": "Attachment Styles Lab",
-      "summary": "Find your attachment style, spot the styles in a text-message exchange, and see how different styles pair up.",
-      "links": [
-        {
-          "label": "What's your attachment style?",
-          "path": "quiz.html"
-        },
-        {
-          "label": "Read the Texts",
-          "path": "textsim.html"
-        },
-        {
-          "label": "Style Matcher",
-          "path": "compatibility.html"
-        },
-        {
-          "group": "Standalone & embed versions",
-          "label": "Quiz",
-          "path": "QuizStandAlone.html"
-        },
-        {
-          "group": "Standalone & embed versions",
-          "label": "Read the Texts",
-          "path": "TextSimStandAlone.html"
-        },
-        {
-          "group": "Standalone & embed versions",
-          "label": "Read the Texts (embed)",
-          "path": "TextSimStandAlone-embed.html"
-        },
-        {
-          "group": "Standalone & embed versions",
-          "label": "Style Matcher",
-          "path": "MatcherStandAlone.html"
-        }
-      ]
-    },
-    "hookup-sti-risk-game": {
-      "category": "activities",
+    {
+      "id": "hookup-game",
+      "repo": "hookup-sti-risk-game",
       "name": "The Hook-Up Game",
-      "summary": "Model a year of choices (partners, condoms, HPV vaccination), see your odds of contracting an STI, then roll the dice.",
+      "summary": "Model a year of choices (partners, condoms, HPV vaccination), see your odds of an STI, then roll the dice.",
+      "path": "index.html",
+      "tags": [
+        "PSY175"
+      ],
       "links": [
         {
           "label": "About & sources",
@@ -363,10 +636,15 @@
         }
       ]
     },
-    "Orgasm-Description": {
-      "category": "activities",
+    {
+      "id": "describing-orgasm",
+      "repo": "Orgasm-Description",
       "name": "Describing Orgasm",
-      "summary": "A classroom replication of Vance & Wagner (1976). Students describe an orgasm anonymously, then try to guess each writer's anatomy.",
+      "summary": "A classroom replication of Vance & Wagner (1976): describe an orgasm anonymously, then guess each writer's anatomy.",
+      "path": "index.html",
+      "tags": [
+        "PSY175"
+      ],
       "links": [
         {
           "label": "Submit a description",
@@ -382,54 +660,14 @@
         }
       ]
     },
-    "Marriage-Rates": {
-      "category": "activities",
-      "name": "Changing Marriage Rates",
-      "summary": "How the share of married U.S. adults ages 25–34 fell from 86 to 34 per 100 between 1970 and 2025, with a Pick-a-Year spinner game.",
-      "links": [
-        {
-          "label": "Pick a Year embed — all years (720×450)",
-          "path": "pick-a-year-embed.html"
-        },
-        {
-          "label": "Pick a Year embed — 3 years: 1975/1995/2025 (720×450)",
-          "path": "pick-a-year-embed3.html"
-        }
-      ]
-    },
-    "height-and-salary-dating-sim": {
-      "category": "activities",
-      "name": "Dating Messages Simulator",
-      "summary": "Adjust height and salary to see how each relates to the number of messages received on dating apps.",
-      "links": [
-        {
-          "label": "Mobile version",
-          "path": "index-mobile.html"
-        }
-      ]
-    },
-    "FastFaceJudgements": {
-      "category": "activities",
-      "name": "Fast Face Judgments",
-      "summary": "Pairs of faces flash faster every round, down to 60 ms, to show how quickly we judge attractiveness.",
-      "links": [
-        {
-          "label": "Why some faces are more attractive",
-          "path": "attractiveness-explained.html"
-        },
-        {
-          "label": "Embed version",
-          "path": "embed.html"
-        }
-      ]
-    },
-    "Sex-Positions": {
-      "category": "activities",
+    {
+      "id": "position-yourself",
+      "repo": "Sex-Positions",
       "name": "Position Yourself",
       "summary": "An inclusive, mobile-first guide to 56 sex positions sorted by body arrangement, plus a partner matcher quiz.",
-      "primary": "site/",
-      "ignore": [
-        "review-sheet.html"
+      "path": "site/",
+      "tags": [
+        "PSY175"
       ],
       "links": [
         {
@@ -438,24 +676,40 @@
         }
       ]
     },
-    "KinkDeck": {
-      "category": "activities",
+    {
+      "id": "kinkdeck",
+      "repo": "KinkDeck",
       "name": "KinkDeck",
-      "summary": "Swipe through 20 cards across 10 kinks for a quick, playful breakdown. Nothing is stored."
+      "summary": "Swipe through 20 cards across 10 kinks for a quick, playful breakdown. Nothing is stored.",
+      "path": "index.html",
+      "tags": [
+        "PSY175"
+      ]
     },
-    "tat": {
-      "category": "activities",
+    {
+      "id": "locus-of-control",
+      "repo": "TH-Apps",
+      "name": "Locus of Control",
+      "summary": "A 20-question quiz that places you from internal to external locus of control across five bands.",
+      "path": "locusofcontrol.html",
+      "tags": [
+        "textbook"
+      ],
+      "shot": {
+        "width": 720,
+        "height": 540
+      }
+    },
+    {
+      "id": "tat",
+      "repo": "tat",
       "name": "TAT Images",
       "summary": "Picture cards for a Thematic Apperception Test (TAT) demonstration.",
-      "primary": "TATimage1.png",
-      "ignore": [
-        "index.html"
+      "path": "TATimage1.png",
+      "tags": [
+        "textbook"
       ],
       "links": [
-        {
-          "label": "Image 1",
-          "path": "TATimage1.png"
-        },
         {
           "label": "Image 2",
           "path": "TATimage2.png"
@@ -466,121 +720,124 @@
         }
       ]
     },
-    "TH-Apps": {
-      "category": "activities",
-      "name": "Top Hat Apps",
-      "summary": "Single-file activities built to drop into a Top Hat slide at 720×450. First up: a Locus of Control quiz that scores you from internal to external across five bands.",
-      "primary": "locusofcontrol.html",
-      "links": [
-        {
-          "label": "Locus of Control quiz",
-          "path": "locusofcontrol.html"
-        }
-      ]
-    },
-    "PSY170": {
-      "category": "activities",
-      "name": "PSY 170 Class Activities & Scales",
-      "summary": "Self-scoring scales built at 720×450 for Top Hat — McClelland's needs for achievement, power, and affiliation, commitment to UC Merced on Meyer & Allen's three dimensions, and a Halloween-themed Dark Triad survey — plus The Heist, which secretly tells each student whether to steal a prize and whether to lie about it so the class can practice detecting deception. It also includes a groupthink activity that hands each student one of four real cases, from the Soviet sub that nearly launched a nuclear torpedo to the Mozart effect, then sends them to find classmates holding a different case. Subtext pairs students to pass a phone back and forth, each saying an everyday line like \"Good job.\" while using only nonverbal cues to convey a secret meaning such as sarcasm or surprise.",
-      "primary": "achievementmotivationscale.html",
-      "links": [
-        {
-          "label": "Achievement Motivation Scale",
-          "path": "achievementmotivationscale.html"
-        },
-        {
-          "label": "Commitment to UC Merced",
-          "path": "commitmentscale.html"
-        },
-        {
-          "label": "The Dark Triad",
-          "path": "Dark Triad (Survey)/embed.html"
-        },
-        {
-          "label": "The Heist (thief & lie assignment)",
-          "path": "thiefgame.html"
-        },
-        {
-          "label": "Groupthink: Four Cases",
-          "path": "Groupthink Examples/index.html"
-        },
-        {
-          "label": "Subtext (nonverbal partner game)",
-          "path": "Nonverbal (Subtext Game)/Subtext.html"
-        }
-      ]
-    },
-    "class-attendance": {
-      "category": "tools",
+    {
+      "id": "class-check-in",
+      "repo": "class-attendance",
       "name": "Class Check-In",
-      "summary": "Students enter the session code from the instructor to check in, and attendance is recorded in Google Sheets."
+      "summary": "Students enter the session code from the instructor to check in, and attendance is recorded in Google Sheets.",
+      "path": "",
+      "tags": [
+        "tools"
+      ]
     },
-    "sclass-scheduler": {
-      "category": "tools",
+    {
+      "id": "semester-grid",
+      "repo": "sclass-scheduler",
       "name": "Semester Grid",
-      "summary": "Build a week-by-week class schedule for a semester and paste the table straight into Google Docs."
+      "summary": "Build a week-by-week class schedule for a semester and paste the table straight into Google Docs.",
+      "path": "index.html",
+      "tags": [
+        "tools"
+      ]
     },
-    "ExamDistribution": {
-      "category": "tools",
+    {
+      "id": "exam-distribution",
+      "repo": "ExamDistribution",
       "name": "Exam Grade Distribution",
-      "summary": "Merge Canvas exam scores into the gradebook, preview a curve and grade distribution, and export Canvas-ready files and a PDF report."
+      "summary": "Merge Canvas exam scores into the gradebook, preview a curve, and export Canvas-ready files and a PDF report.",
+      "path": "index.html",
+      "tags": [
+        "tools"
+      ]
     },
-    "Names": {
-      "category": "tools",
+    {
+      "id": "student-names",
+      "repo": "Names",
       "name": "Student Names",
-      "summary": "Flashcards for learning students' names from their photos, with a tab per class, memory tips, and swipe or arrow-key marking until everyone is learned."
+      "summary": "Flashcards for learning students' names from their photos, with a tab per class and swipe-to-mark.",
+      "path": "index.html",
+      "tags": [
+        "tools"
+      ],
+      "shot": {
+        "none": true
+      }
     },
-    "THandAI": {
-      "category": "tools",
+    {
+      "id": "teaching-review",
+      "repo": "teaching-review",
+      "name": "Teaching Review Archive",
+      "summary": "A monthly scan of 21 psychology journals, matched to lectures, with ready-made slide text for each new finding.",
+      "path": "index.html",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "id": "prompt-to-app",
+      "repo": "THandAI",
       "name": "From Prompt to App",
-      "summary": "A walkthrough for instructors: describe a class activity in plain language, have AI write the app, and publish it."
+      "summary": "A walkthrough for instructors: describe a class activity in plain language, have AI write the app, and publish it.",
+      "path": "index.html",
+      "tags": [
+        "tools"
+      ]
     },
-    "DECA": {
-      "category": "personal",
+    {
+      "id": "deca",
+      "repo": "DECA",
       "name": "DECA Family Hub",
-      "summary": "Mobile hub for Denair Elementary Charter Academy families: the 2026–27 school calendar, bell schedule, lunch menu, and Parents Club events.",
-      "primary": "DECA26.html"
+      "summary": "The Denair Elementary Charter Academy calendar, bell schedule, lunch menu, and Parents Club events.",
+      "path": "DECA26.html",
+      "tags": [
+        "personal"
+      ]
     },
-    "fun-for-nathaniel": {
-      "category": "personal",
+    {
+      "id": "fun-for-nathaniel",
+      "repo": "fun-for-nathaniel",
       "name": "Fun for Nathaniel",
-      "summary": "A calendar of kid-friendly events around Turlock on weekends and school breaks, with one-tap Google Calendar links."
+      "summary": "Kid-friendly events around Turlock on weekends and school breaks, with one-tap Google Calendar links.",
+      "path": "index.html",
+      "tags": [
+        "personal"
+      ]
     },
-    "weekly-menu": {
-      "category": "personal",
+    {
+      "id": "week-plan",
+      "repo": "weekly-menu",
       "name": "Week Plan",
-      "summary": "A mobile weekly meal plan with recipes and a built-in timer."
+      "summary": "Pick the week's meals and get a shopping list and Sunday prep plan built from them.",
+      "path": "index.html",
+      "tags": [
+        "personal"
+      ]
     },
-    "counter": {
-      "category": "personal",
-      "name": "Counter",
-      "summary": "A minimal tap-to-count app."
-    },
-    "kettlebell": {
-      "category": "personal",
+    {
+      "id": "kb-builder",
+      "repo": "kettlebell",
       "name": "KB Builder",
       "summary": "A kettlebell workout builder with a round tracker, demo videos, and a library of 82 moves.",
+      "path": "index.html",
+      "tags": [
+        "personal"
+      ],
       "links": [
-        {
-          "label": "Workout builder",
-          "path": "index.html"
-        },
         {
           "label": "Movement library",
           "path": "library.html"
         }
       ]
     },
-    "teaching-review": {
-      "category": "tools",
-      "name": "Teaching Review Archive",
-      "summary": "A monthly scan of 21 top-tier psychology journals, matched to the lectures of Human Sexuality, Personal Relationships, and I/O Psychology. Browse by month, then class, then category — Priority, Updates, Examples, Retractions. Each article carries its abstract, an APA reference, ready-made slide text showing the current wording beside a proposed replacement, and a briefing you can paste into Claude to ask follow-up questions.",
-      "links": [
-        {
-          "label": "Latest review",
-          "path": "index.html"
-        }
+    {
+      "id": "counter",
+      "repo": "counter",
+      "name": "Counter",
+      "summary": "A minimal tap-to-count app.",
+      "path": "index.html",
+      "tags": [
+        "personal"
       ]
     }
-  }
+  ]
 }

@@ -1,6 +1,7 @@
 # rossdavilla.github.io
 
-A directory of every website published from my GitHub repositories.
+A directory of every web app published from my GitHub repositories, one card per app with a
+screenshot, tagged by the class it's for.
 
 **Live:** https://rossdavilla.github.io/
 
@@ -11,10 +12,12 @@ A directory of every website published from my GitHub repositories.
 
 1. Lists every public, non-fork repository on the account through the GitHub API.
 2. Finds each repo's website (its GitHub Pages site, or the repo's website field) and every HTML page in it.
-3. Regenerates `index.html`, commits it if anything changed, and deploys it to GitHub Pages.
+3. Screenshots any app that is new, whose URL changed, or whose repo has been pushed since its last
+   screenshot (headless Chrome, saved to `thumbs/<id>.webp`, logged in `data/thumbs.json`).
+4. Regenerates `index.html`, commits it and the screenshots if anything changed, and deploys to GitHub Pages.
 
-New sites show up on their own. A new repo appears under **Just added**, and a new page in a known
-repo appears under that site's **More pages**.
+New apps show up on their own under **Just added**: a new repo gets one card, and a new page in a
+known repo gets its own card.
 
 ## Curating
 
@@ -22,15 +25,17 @@ repo appears under that site's **More pages**.
 
 | Field | What it does |
 | --- | --- |
-| `categories` | The sections of the page, in order |
-| `repos.<name>.category` / `name` / `summary` | Where a site is filed and how it's described |
-| `repos.<name>.primary` | The page the site's title links to (default: the repo's root) |
-| `repos.<name>.links` | Pages to list as `{ label, path, group }`. Leave out `label` to use the page's `<title>`, and use `group` to collect links under a heading |
+| `tags` | The class tags (PSY001, PSY157, PSY170, PSY175, Textbook, Teaching tools, Personal), in page order. `short` is the filter-button label |
+| `apps[]` | One card each: `id` (also the screenshot's filename), `repo`, `name`, one-sentence `summary`, `path` (the page the card opens), and `tags` |
+| `apps[].links` | Extra versions shown under "more links": `{ label, path }`, plus `repo` when the page lives in another repo |
+| `apps[].covers` | Globs for pages the card stands for without listing them (e.g. textbook chapters) |
+| `apps[].shot` | Screenshot options: `width`/`height` of the viewport (default 800×600; 720×540 suits Top Hat embeds), `delay` in ms, or `none: true` for a placeholder |
 | `repos.<name>.ignore` | Glob patterns for pages that shouldn't be listed (mockups, templates, drafts) |
 | `repos.<name>.stripTitle` | Regexes removed from automatic `<title>` labels |
 | `ignore` / `hide` | Glob patterns ignored in every repo / repos left off entirely |
 
-Push a change to `data/sites.json` and the site rebuilds.
+An app can carry several tags and then appears under each class. Push a change to `data/sites.json`
+and the site rebuilds.
 
 ## Building locally
 
@@ -38,4 +43,5 @@ Push a change to `data/sites.json` and the site rebuilds.
 GITHUB_TOKEN=$(gh auth token) node scripts/build.mjs
 ```
 
-`index.html` is generated, so don't edit it by hand.
+Add `--reshoot all` (or `--reshoot id1,id2`) to retake screenshots, or set `SKIP_SHOTS=1` to skip
+them. `index.html` is generated, so don't edit it by hand.

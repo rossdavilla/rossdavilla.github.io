@@ -73,7 +73,8 @@
     "PSYCH-C1000": {
       "ignore": [
         "Human Sexualities*.html",
-        "cyberball/cyberball-same.html"
+        "cyberball/cyberball-same.html",
+        "cyberball/cyberball-rejection-nopractice.html"
       ]
     },
     "3D-Anatomy": {

@@ -897,6 +897,16 @@
       "tags": [
         "personal"
       ]
+    },
+    {
+      "id": "transform-leadership",
+      "repo": "transform-leadership",
+      "name": "The 4 I's of Transformational Leadership",
+      "summary": "Pick one of the four I's to see what the trait means and a well-known leader who shows it.",
+      "path": "index.html",
+      "tags": [
+        "PSY170"
+      ]
     }
   ]
 }

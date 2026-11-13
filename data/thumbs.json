@@ -85,23 +85,23 @@
   },
   "achievement-motivation": {
     "url": "https://rossdavilla.github.io/PSY170/achievementmotivationscale.html",
-    "taken": "2026-11-13T18:06:01.518Z"
+    "taken": "2026-11-13T18:30:47.306Z"
   },
   "commitment-scale": {
     "url": "https://rossdavilla.github.io/PSY170/commitmentscale.html",
-    "taken": "2026-11-13T18:06:04.237Z"
+    "taken": "2026-11-13T18:30:50.105Z"
   },
   "dark-triad": {
     "url": "https://rossdavilla.github.io/PSY170/Dark%20Triad%20(Survey)/embed.html",
-    "taken": "2026-11-13T18:06:07.198Z"
+    "taken": "2026-11-13T18:30:53.070Z"
   },
   "groupthink": {
     "url": "https://rossdavilla.github.io/PSY170/Groupthink%20Examples/",
-    "taken": "2026-11-13T18:06:12.782Z"
+    "taken": "2026-11-13T18:31:01.565Z"
   },
   "subtext": {
     "url": "https://rossdavilla.github.io/PSY170/nonverbal-behavior.html",
-    "taken": "2026-11-13T18:06:15.505Z"
+    "taken": "2026-11-13T18:31:04.323Z"
   },
   "human-sexuality": {
     "url": "https://rossdavilla.github.io/PSYCH-110/",
@@ -193,6 +193,10 @@
   },
   "big-five": {
     "url": "https://rossdavilla.github.io/PSY170/Big%20Five%20(Survey)/embed.html",
-    "taken": "2026-11-13T18:06:09.920Z"
+    "taken": "2026-11-13T18:30:55.838Z"
+  },
+  "eq-sq": {
+    "url": "https://rossdavilla.github.io/PSY170/Emotional%20and%20Social%20Intelligence%20(Survey)/EQSQ.html",
+    "taken": "2026-11-13T18:30:58.556Z"
   }
 }

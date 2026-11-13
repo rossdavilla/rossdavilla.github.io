@@ -525,6 +525,20 @@
       }
     },
     {
+      "id": "eq-sq",
+      "repo": "PSY170",
+      "name": "Emotional & Social Intelligence",
+      "summary": "Twenty statements that score how well you read your own emotions against how well you read other people.",
+      "path": "Emotional and Social Intelligence (Survey)/EQSQ.html",
+      "tags": [
+        "PSY170"
+      ],
+      "shot": {
+        "width": 720,
+        "height": 450
+      }
+    },
+    {
       "id": "groupthink",
       "repo": "PSY170",
       "name": "Groupthink: Four Cases",

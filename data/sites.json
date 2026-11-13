@@ -510,6 +510,21 @@
       }
     },
     {
+      "id": "big-five",
+      "repo": "PSY170",
+      "name": "Big Five Personality Survey",
+      "summary": "Twenty IPIP-NEO items, one per screen, scoring your openness, conscientiousness, extraversion, agreeableness, and neuroticism.",
+      "path": "Big Five (Survey)/embed.html",
+      "tags": [
+        "PSY170",
+        "PSY001"
+      ],
+      "shot": {
+        "width": 720,
+        "height": 450
+      }
+    },
+    {
       "id": "groupthink",
       "repo": "PSY170",
       "name": "Groupthink: Four Cases",

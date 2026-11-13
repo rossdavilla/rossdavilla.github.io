@@ -539,6 +539,26 @@
       }
     },
     {
+      "id": "rmet",
+      "repo": "RMET",
+      "name": "Reading the Mind in the Eyes",
+      "summary": "Judge what a person is thinking or feeling from the eye region alone, across 36 photographs.",
+      "path": "index.html",
+      "tags": [
+        "PSY170"
+      ],
+      "links": [
+        {
+          "label": "Short form (18 items)",
+          "path": "RMET-noneutral.html"
+        }
+      ],
+      "shot": {
+        "width": 720,
+        "height": 450
+      }
+    },
+    {
       "id": "groupthink",
       "repo": "PSY170",
       "name": "Groupthink: Four Cases",

@@ -551,6 +551,10 @@
         {
           "label": "Short form (18 items)",
           "path": "RMET-noneutral.html"
+        },
+        {
+          "label": "Head to head (1-3 players)",
+          "path": "RMET-team.html"
         }
       ],
       "shot": {

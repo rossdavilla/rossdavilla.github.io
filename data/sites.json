@@ -933,6 +933,16 @@
       "tags": [
         "PSY170"
       ]
+    },
+    {
+      "id": "push-ups",
+      "repo": "push-ups",
+      "name": "Push-Ups",
+      "summary": "A six-week push-up plan that shows today's workout, logs each set, times rest, and tracks max tests on the way to 50.",
+      "path": "index.html",
+      "tags": [
+        "personal"
+      ]
     }
   ]
 }

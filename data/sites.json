@@ -943,6 +943,17 @@
       "tags": [
         "personal"
       ]
+    },
+    {
+      "id": "liar-game",
+      "repo": "liar-game",
+      "name": "The Liar Game",
+      "path": "index.html",
+      "summary": "Each student writes a surprising truth and a dramatic lie on their phone; the app secretly picks one, and they have to convince the class it's true.",
+      "tags": [
+        "PSY001",
+        "PSY157"
+      ]
     }
   ]
 }

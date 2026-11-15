@@ -539,6 +539,20 @@
       }
     },
     {
+      "id": "leadership-grid",
+      "repo": "PSY170",
+      "name": "Plot Your Past Bosses",
+      "summary": "Rate three real bosses on task and relationship behaviors and see where each lands on Blake and Mouton's Leadership Grid.",
+      "path": "Leadership Grid Survey/index.html",
+      "tags": [
+        "PSY170"
+      ],
+      "shot": {
+        "width": 720,
+        "height": 450
+      }
+    },
+    {
       "id": "rmet",
       "repo": "RMET",
       "name": "Reading the Mind in the Eyes",

@@ -77,9 +77,7 @@
     },
     "PSYCH-C1000": {
       "ignore": [
-        "Human Sexualities*.html",
-        "cyberball/cyberball-same.html",
-        "cyberball/cyberball-rejection-nopractice.html"
+        "Human Sexualities*.html"
       ]
     },
     "3D-Anatomy": {
@@ -149,10 +147,20 @@
       "id": "cyberball",
       "repo": "PSYCH-C1000",
       "name": "Cyberball",
-      "summary": "The classic social-exclusion demo: toss a ball with two other players until they stop throwing it to you.",
+      "summary": "The classic social-exclusion demo: toss a ball with two other players until they stop throwing it to you. The main version assigns rejection by a 50/50 coin flip; two other versions reject everyone.",
       "path": "cyberball/index.html",
       "tags": [
         "PSY001"
+      ],
+      "links": [
+        {
+          "label": "Everyone rejected",
+          "path": "cyberball/cyberball-same.html"
+        },
+        {
+          "label": "Everyone rejected, no practice round",
+          "path": "cyberball/cyberball-rejection-nopractice.html"
+        }
       ]
     },
     {

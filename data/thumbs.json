@@ -1,27 +1,27 @@
 {
   "intro-course": {
     "url": "https://rossdavilla.github.io/PSYCH-C1000/",
-    "taken": "2026-11-12T04:51:24.733Z"
+    "taken": "2026-11-15T03:38:47.612Z"
   },
   "myth-or-fact": {
     "url": "https://rossdavilla.github.io/PSYCH-C1000/mythorfact.html",
-    "taken": "2026-11-12T04:51:27.420Z"
+    "taken": "2026-11-15T03:38:50.359Z"
   },
   "make-a-face": {
     "url": "https://rossdavilla.github.io/PSYCH-C1000/Emotion%20Game/",
-    "taken": "2026-11-12T04:51:30.249Z"
+    "taken": "2026-11-15T03:38:53.208Z"
   },
   "cyberball": {
     "url": "https://rossdavilla.github.io/PSYCH-C1000/cyberball/",
-    "taken": "2026-11-12T04:51:33.297Z"
+    "taken": "2026-11-15T03:38:56.480Z"
   },
   "the-heist": {
     "url": "https://rossdavilla.github.io/PSYCH-C1000/Thief-Game/",
-    "taken": "2026-11-12T04:51:35.964Z"
+    "taken": "2026-11-15T03:38:59.173Z"
   },
   "spot-the-criminal": {
     "url": "https://rossdavilla.github.io/PSYCH-C1000/Spot%20the%20Dangerous%20Criminal/",
-    "taken": "2026-11-12T04:51:38.680Z"
+    "taken": "2026-11-15T03:39:01.857Z"
   },
   "brain-neocortex": {
     "url": "https://rossdavilla.github.io/3D-Anatomy/Brain%20Neocortex%20Viewer.html",
@@ -210,5 +210,9 @@
   "leadership-grid": {
     "url": "https://rossdavilla.github.io/PSY170/Leadership%20Grid%20Survey/",
     "taken": "2026-11-15T01:17:29.021Z"
+  },
+  "push-ups": {
+    "url": "https://rossdavilla.github.io/push-ups/",
+    "taken": "2026-11-15T03:39:04.575Z"
   }
 }

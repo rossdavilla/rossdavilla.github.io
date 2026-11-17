@@ -62,7 +62,8 @@
   "repos": {
     "mock-tophat": {
       "ignore": [
-        "index.html"
+        "index.html",
+        "tools/**"
       ]
     },
     "PSYCH-110": {

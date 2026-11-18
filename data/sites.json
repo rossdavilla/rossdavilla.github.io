@@ -534,6 +534,20 @@
       }
     },
     {
+      "id": "need-for-cognition",
+      "repo": "PSY170",
+      "name": "Need for Cognition Scale",
+      "summary": "Six items from Cacioppo & Petty's short form that score how much you enjoy effortful thinking, as low, moderate, or high.",
+      "path": "Need for Cognition Scale/index.html",
+      "tags": [
+        "PSY170"
+      ],
+      "shot": {
+        "width": 720,
+        "height": 450
+      }
+    },
+    {
       "id": "eq-sq",
       "repo": "PSY170",
       "name": "Emotional & Social Intelligence",

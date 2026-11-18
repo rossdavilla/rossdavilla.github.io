@@ -85,23 +85,23 @@
   },
   "achievement-motivation": {
     "url": "https://rossdavilla.github.io/PSY170/achievementmotivationscale.html",
-    "taken": "2026-11-17T08:08:48.442Z"
+    "taken": "2026-11-18T18:11:12.883Z"
   },
   "commitment-scale": {
     "url": "https://rossdavilla.github.io/PSY170/commitmentscale.html",
-    "taken": "2026-11-17T08:08:51.141Z"
+    "taken": "2026-11-18T18:11:15.513Z"
   },
   "dark-triad": {
     "url": "https://rossdavilla.github.io/PSY170/Dark%20Triad%20(Survey)/embed.html",
-    "taken": "2026-11-17T08:08:54.018Z"
+    "taken": "2026-11-18T18:11:18.321Z"
   },
   "groupthink": {
     "url": "https://rossdavilla.github.io/PSY170/Groupthink%20Examples/",
-    "taken": "2026-11-17T08:09:05.030Z"
+    "taken": "2026-11-18T18:11:31.570Z"
   },
   "subtext": {
     "url": "https://rossdavilla.github.io/PSY170/nonverbal-behavior.html",
-    "taken": "2026-11-17T08:09:07.757Z"
+    "taken": "2026-11-18T18:11:34.280Z"
   },
   "human-sexuality": {
     "url": "https://rossdavilla.github.io/PSYCH-110/",
@@ -193,11 +193,11 @@
   },
   "big-five": {
     "url": "https://rossdavilla.github.io/PSY170/Big%20Five%20(Survey)/embed.html",
-    "taken": "2026-11-17T08:08:56.708Z"
+    "taken": "2026-11-18T18:11:20.963Z"
   },
   "eq-sq": {
     "url": "https://rossdavilla.github.io/PSY170/Emotional%20and%20Social%20Intelligence%20(Survey)/EQSQ.html",
-    "taken": "2026-11-17T08:08:59.373Z"
+    "taken": "2026-11-18T18:11:26.214Z"
   },
   "rmet": {
     "url": "https://rossdavilla.github.io/RMET/",
@@ -209,7 +209,7 @@
   },
   "leadership-grid": {
     "url": "https://rossdavilla.github.io/PSY170/Leadership%20Grid%20Survey/",
-    "taken": "2026-11-17T08:09:02.060Z"
+    "taken": "2026-11-18T18:11:28.881Z"
   },
   "push-ups": {
     "url": "https://rossdavilla.github.io/push-ups/",
@@ -218,5 +218,9 @@
   "liar-game": {
     "url": "https://rossdavilla.github.io/liar-game/",
     "taken": "2026-11-17T08:09:36.596Z"
+  },
+  "need-for-cognition": {
+    "url": "https://rossdavilla.github.io/PSY170/Need%20for%20Cognition%20Scale/",
+    "taken": "2026-11-18T18:11:23.579Z"
   }
 }

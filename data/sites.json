@@ -193,6 +193,16 @@
       ]
     },
     {
+      "id": "dsm-booklet",
+      "repo": "PSYCH-C1000",
+      "name": "DSM Booklet",
+      "summary": "The DSM-5-TR criteria for fourteen disorders, one per screen. Tap the symptoms as you read a case and each group counts them against its own threshold.",
+      "path": "dsm.html",
+      "tags": [
+        "PSY001"
+      ]
+    },
+    {
       "id": "brain-neocortex",
       "repo": "3D-Anatomy",
       "name": "3D Brain: Neocortex",
